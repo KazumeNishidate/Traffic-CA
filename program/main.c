@@ -24,7 +24,7 @@ int main(void){
 /*-------------- X interface -------------------*/
       egg_disp();
       //      egg_traffic();
-      usleep(30000);
+      usleep(30000);  // enforce delay
 
       accelerate();  // step 1
       decelerate();  // step 2
